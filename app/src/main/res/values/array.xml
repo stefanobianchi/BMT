@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="modifiche">
+        <item></item>
+        <item>Straordinario</item>
+        <item>Permesso</item>
+        <item>Ferie</item>
+        <item>Malattia</item>
+        <item>Legge 104</item>
+
+    </string-array>
+
+
+
+</resources>

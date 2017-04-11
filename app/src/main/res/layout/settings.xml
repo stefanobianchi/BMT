@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="391dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.43">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_valigetta"
+                android:id="@+id/imageView9"
+                android:layout_weight="0.40"
+                android:layout_marginTop="4dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="denominazione"
+                android:ems="10"
+                android:id="@+id/editTextDenominazione"
+                android:layout_weight="1"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="#747474"
+            android:id="@+id/textView2"
+            android:layout_height="1dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/ic_clockicon"
+                android:id="@+id/imageView10"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="40dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-7dp"
+                android:layout_marginLeft="-20dp"
+                android:layout_weight="0.23">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:text="Entrata"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView8"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="30dp" />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:id="@+id/idEntrata"
+                        android:layout_weight="1.15"
+                        android:layout_width="wrap_content"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="Uscita"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView9"
+                        android:layout_weight="1.32"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="42dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:id="@+id/idUscita"
+                        android:layout_weight="1"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="#747474"
+            android:id="@+id/textViewbar"
+            android:layout_height="1dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_pause"
+                android:id="@+id/imageView11"
+                android:layout_weight="0.19"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="-2dp" />
+
+            <EditText
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editTextPausa"
+                android:hint="min" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_delete"
+                android:id="@+id/imageViewCancel"
+                android:layout_weight="1"
+                android:paddingLeft="-150dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:background="#747474"
+            android:id="@+id/textViewbar2"
+            android:layout_height="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_graffetta"
+                android:id="@+id/imageView13"
+                android:layout_weight="0.11" />
+
+            <!--suppress AndroidDomInspection -->
+            <Spinner
+                android:layout_width="122dp"
+                android:layout_height="match_parent"
+                android:inputType="@array/modifiche"
+                android:ems="10"
+                android:id="@+id/spinnerAssenze"
+                android:layout_weight="0.04"
+                android:entries="@array/modifiche" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_pause"
+                android:id="@+id/imageView14"
+                android:layout_weight="0.19"
+                android:layout_marginTop="5dp" />
+
+            <EditText
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editTextAssenza"
+                android:hint="min" />
+        </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
